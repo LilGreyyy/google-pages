@@ -1,5 +1,4 @@
 html {
-    height: 100%;
     width: 100%;
 }
 
@@ -69,7 +68,7 @@ html {
     grid-template-columns: 100px 100px 100px 100px 100px 400px 100px 100px;
     grid-template-areas: 
     "all images maps videos news more . settings tools";
-    padding-left: 170px;
+    padding-left: 100px;
     height: 16px;
     line-height: 16px;
     left:0mm;
@@ -82,7 +81,7 @@ html {
     margin: middle;
     color: #5f6368;
     text-decoration: none;
-    padding-right: 30px;
+    padding-right: 25px;
 }
 
 #images {
@@ -149,10 +148,121 @@ html {
     font-family: arial sans-serif; 
     text-decoration: none; 
     font-size: 20px;
-    font-weight: bold;
 }
 
 #rvt1-1-1 {
+    max-width: 48em;
+    color: #4d5156;
+    line-height: 1.58;
+    text-align: left;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: none;
+    margin-top: 3px;
+}
+
+#rvt-twitter {
+    font-size: 14px;
+    line-height: 1.3;
+    padding-top: 1px;
+    font-style: normal;
+    font-family: arial,sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+#rvt-twitter1 {
+    font-family: arial sans-serif; 
+    text-decoration: none; 
+    font-size: 20px;
+}
+
+#rvt-twitter1-1 {
+    max-width: 48em;
+    color: #4d5156;
+    line-height: 1.58;
+    text-align: left;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: none;
+    margin-top: 3px;
+}
+
+#rvt-wikipedia {
+    font-size: 14px;
+    line-height: 1.3;
+    padding-top: 1px;
+    font-style: normal;
+    font-family: arial,sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+#rvt-wikipedia1 {
+    font-family: arial sans-serif; 
+    text-decoration: none; 
+    font-size: 20px;
+}
+
+#rvt-wikipedia1-1 {
+    max-width: 48em;
+    color: #4d5156;
+    line-height: 1.58;
+    text-align: left;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: none;
+    margin-top: 3px;
+}
+
+#rvt-facebook {
+    font-size: 14px;
+    line-height: 1.3;
+    padding-top: 1px;
+    font-style: normal;
+    font-family: arial,sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+#rvt-facebook1 {
+    font-family: arial sans-serif; 
+    text-decoration: none; 
+    font-size: 20px;
+}
+
+#rvt-facebook1-1 {
+    max-width: 48em;
+    color: #4d5156;
+    line-height: 1.58;
+    text-align: left;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: none;
+    margin-top: 3px;
+}
+
+#rvt-prakse {
+    font-size: 14px;
+    line-height: 1.3;
+    padding-top: 1px;
+    font-style: normal;
+    font-family: arial,sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+#rvt-prakse1 {
+    font-family: arial sans-serif; 
+    text-decoration: none; 
+    font-size: 20px;
+}
+
+#rvt-prakse1-1 {
     max-width: 48em;
     color: #4d5156;
     line-height: 1.58;
@@ -170,12 +280,54 @@ html {
     background-color: rgba(0, 0, 0, 0.05);
     padding: 15px 30px;
     position: absolute;
-    font-size: 16px;
-    bottom: 7%;
+    font-size: 15px;
+    bottom: -33%;
     border-bottom: 1px solid rgb(197, 197, 197);
     grid-template-columns: 70px;
-    grid-template-areas: "latvia boypa upl lm";
+    grid-template-areas: "latvia am boypa upl lm";
     grid-template-rows: 50px;
+    text-decoration: none;
+    font-family: arial,sans-serif;
+}
+
+#latvia {
+    margin-left: 10%;
+    color: rgba(0,0,0,.54);
+    grid-area: about;
+    justify-self: center;
+    align-self: center;
+    text-decoration: none;
+}
+
+#am {
+    color: #3c4043;
+    font-weight: bold;
+    justify-self: center;
+    align-self: center;
+    text-decoration: none;
+}
+
+#boypa {
+    color: rgba(0,0,0,.54);
+    grid-area: boypa;
+    justify-self: center;
+    align-self: center;
+    text-decoration: none;
+}
+
+#upl {
+    color: rgba(0,0,0,.54);
+    grid-area: upl;
+    justify-self: center;
+    align-self: center;
+    text-decoration: none;
+}
+
+#lm {
+    color: rgba(0,0,0,.54);
+    grid-area: lm;
+    justify-self: center;
+    align-self: center;
     text-decoration: none;
 }
 
@@ -185,41 +337,47 @@ html {
     background-color: rgba(0, 0, 0, 0.05);
     position: absolute;
     display: grid;
-    bottom: 0%;
-    grid-template-columns: 95px 40px 100px 120px 950px 70px 70px 70px;
-    grid-template-areas: "about advertising business hsw . privacy terms settings";
+    bottom: -40%;
+    grid-template-columns: 80px 100px 80px 60px;
+    grid-template-areas: "help sf privacy terms";
     grid-template-rows: 50px;
+    font-size: 15px;
+    font-family: arial,sans-serif;
+    padding-left: 10%;
+}
+
+#help {
+    grid-area: help;
+    justify-self: center;
+    align-self: center;
     font-size: 14px;
+    text-decoration: none;
+    color: rgba(0,0,0,.54);
 }
 
-#latvia {
-    color: rgb(90, 88, 88);
-    grid-area: about;
+#sf {
+    color: rgba(0,0,0,.54);
+    grid-area: sf;
     justify-self: center;
     align-self: center;
+    font-size: 14px;
     text-decoration: none;
 }
 
-#boypa {
-    color: rgb(90, 88, 88);
-    grid-area: about;
+#privacy {
+    color: rgba(0,0,0,.54);
+    grid-area: privacy;
     justify-self: center;
     align-self: center;
+    font-size: 14px;
     text-decoration: none;
 }
 
-#upl {
-    color: rgb(90, 88, 88);
-    grid-area: about;
+#terms {
+    color: rgba(0,0,0,.54);
+    grid-area: terms;
     justify-self: center;
     align-self: center;
-    text-decoration: none;
-}
-
-#lm {
-    color: rgb(90, 88, 88);
-    grid-area: about;
-    justify-self: center;
-    align-self: center;
+    font-size: 14px;
     text-decoration: none;
 }

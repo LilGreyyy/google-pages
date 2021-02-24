@@ -147,6 +147,12 @@ a:hover {
 }
 
 #footer2 {
+    margin-left: 10px;
+    padding-top: 15;
+    text-decoration: none;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14;
     left: 0mm;
     right:0mm;
     background-color: rgba(0, 0, 0, 0.05);
@@ -156,7 +162,6 @@ a:hover {
     grid-template-columns: 95px 40px 100px 120px 950px 70px 70px 70px;
     grid-template-areas: "about advertising business hsw . privacy terms settings";
     grid-template-rows: 50px;
-    font-size: 14px;
 }
 
 #latvia {
